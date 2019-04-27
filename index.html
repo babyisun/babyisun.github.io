@@ -26,11 +26,15 @@
         <i></i>
         <i></i>
     </div>
-    <audio id="music" controls loop autoplay src="ntend.mp3"></audio>
+    <audio id="music" loop autoplay src="ntend.mp3"></audio>
     <script>
         window.onload = function(){
             var m = document.getElementById("music"),
-                i = document.getElementById("ico");
+                i = document.getElementById("ico"),
+                ua = window.navigator.userAgent.toLowerCase(); 
+            if (ua.match(/MicroMessenger/i) == 'micromessenger'){
+                i.style.visibility = "visible";
+            }
             document.addEventListener("click", function(){
                 if(m.paused){
                     i.style.visibility = "visible";
