@@ -18,9 +18,8 @@ body {
 }
 
 img {
-	width: 15vh;
-	height: 15vh;
-	/* border: 1px solid rgba(255,255,255,.1); */
+	width: 20vh;
+	height: 20vh;
 	border-radius: 5%;
 }
 
