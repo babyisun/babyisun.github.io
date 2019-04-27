@@ -67,9 +67,8 @@ small {
 }
 
 .music {
-	width: 40px;
+	width: 55px;
 	height: 1px;
-	margin: 0 auto;
 	margin-top: 40px; 
 	position: relative;
 	visibility: hidden;
