@@ -1,3 +1,3 @@
 # babyisun.github.io
-个人主页
-this is my social media page!
+This is my Home Page.
+[babyisun.github.io](https://babyisun.github.io/)
